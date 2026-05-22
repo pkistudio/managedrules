@@ -1,0 +1,16 @@
+repository: pkistudio/asn1instancebuilder
+defaultBranch: main
+branchPrefix: sync/managed-rules
+commitMessage: "chore: sync managed rules"
+pullRequest:
+  title: "chore: sync managed rules"
+  body: "Sync prompt, instruction, release profile, and workflow files from pkistudio/managedrules."
+files:
+  - source: rules/prompts/release.prompt.md
+    target: .github/prompts/release.prompt.md
+  - source: rules/instructions/adr.instructions.md
+    target: .github/instructions/adr.instructions.md
+  - source: rules/instructions/release.instructions.md
+    target: .github/instructions/release.instructions.md
+  - source: profiles/asn1instancebuilder.release-profile.md
+    target: .github/release-profile.md
