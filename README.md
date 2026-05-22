@@ -20,15 +20,37 @@ Product repositories pull from this repository. `managedrules` does not push or 
 - `pkistudio/certgadgets`
 - `pkistudio/asn1instancebuilder`
 
+## Versioning
+
+This repository uses Git tags for versioning. It is not published as an npm package.
+
+- Use `main` for normal product repository sync.
+- Create annotated tags such as `v0.1.0` at stable rule snapshots.
+- Record notable changes in `CHANGELOG.md` before tagging.
+- Product repositories may sync from `main`, a tag, or a specific commit by setting `managedrules_ref` in their workflow dispatch.
+
+Recommended tag categories:
+
+- `rules`: prompt or instruction changes.
+- `profiles`: product release profile changes.
+- `sync`: manifest, workflow bootstrap, or sync script changes.
+
+Create and push a release tag with:
+
+```sh
+git tag -a v0.1.0 -m "managedrules v0.1.0"
+git push origin main v0.1.0
+```
+
 ## Dry Run
 
 Use a dry run to compare a product repository checkout without changing files:
 
 ```sh
 node scripts/sync-managed-rules.mjs \
-	--manifest manifests/pvkgadgets.yml \
-	--target-dir ../pvkgadgets \
-	--dry-run
+  --manifest manifests/pvkgadgets.yml \
+  --target-dir ../pvkgadgets \
+  --dry-run
 ```
 
 The script exits with code `1` when differences are found during a dry run. This makes it usable as a drift check in CI.
@@ -39,8 +61,8 @@ Run the script without `--dry-run` to create a branch, commit synchronized files
 
 ```sh
 node scripts/sync-managed-rules.mjs \
-	--manifest manifests/pvkgadgets.yml \
-	--target-dir ../pvkgadgets
+  --manifest manifests/pvkgadgets.yml \
+  --target-dir ../pvkgadgets
 ```
 
 Requirements:
