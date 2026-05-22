@@ -2,6 +2,12 @@
 
 All notable changes to this repository are tracked here. This repository uses Git tags for versioning.
 
+## v0.1.2 - 2026-05-22
+
+### Sync
+
+- Corrected managed sync PR body text so it no longer says workflow files are synchronized.
+
 ## v0.1.1 - 2026-05-22
 
 ### Rules
