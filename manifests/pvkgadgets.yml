@@ -4,7 +4,7 @@ branchPrefix: sync/managed-rules
 commitMessage: "chore: sync managed rules"
 pullRequest:
   title: "chore: sync managed rules"
-  body: "Sync prompt, instruction, release profile, and workflow files from pkistudio/managedrules."
+  body: "Sync prompt, instruction, and release profile files from pkistudio/managedrules."
 files:
   - source: rules/prompts/release.prompt.md
     target: .github/prompts/release.prompt.md
