@@ -15,7 +15,7 @@
   - `package.json`
   - `package-lock.json`
   - `README.md` (`Current version:`)
-- Version source: `package.json` is the source for the package version.
+- Version source: `package.json` version is injected into `__ASN1_DEFINITION_SIFTER_VERSION__`, the app About display, tag validation, and release metadata.
 - Install command: `npm ci`
 - Build command: `npm run build`
 - Verification commands:

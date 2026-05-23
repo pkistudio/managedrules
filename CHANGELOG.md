@@ -2,6 +2,12 @@
 
 All notable changes to this repository are tracked here. This repository uses Git tags for versioning.
 
+## v0.1.5 - 2026-05-23
+
+### Profiles
+
+- Clarified the `pkistudio/asn1defsifter` version source to include the injected app version constant, About display, tag validation, and release metadata.
+
 ## v0.1.4 - 2026-05-23
 
 ### Profiles
