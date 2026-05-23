@@ -2,6 +2,12 @@
 
 All notable changes to this repository are tracked here. This repository uses Git tags for versioning.
 
+## v0.1.4 - 2026-05-23
+
+### Profiles
+
+- Expanded the `pkistudio/asn1defsifter` release profile with Pages, Wiki, npm publish, and WordPress release details now that it follows the standard PkiStudio release shape.
+
 ## v0.1.3 - 2026-05-23
 
 ### Profiles
