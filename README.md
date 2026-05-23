@@ -19,6 +19,7 @@ Product repositories pull from this repository. `managedrules` does not push or 
 - `pkistudio/pvkgadgets`
 - `pkistudio/certgadgets`
 - `pkistudio/asn1instancebuilder`
+- `pkistudio/asn1defsifter`
 
 ## Versioning
 

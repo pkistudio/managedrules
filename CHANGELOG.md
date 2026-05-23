@@ -2,6 +2,16 @@
 
 All notable changes to this repository are tracked here. This repository uses Git tags for versioning.
 
+## v0.1.3 - 2026-05-23
+
+### Profiles
+
+- Added a release profile for `pkistudio/asn1defsifter`.
+
+### Sync
+
+- Added a managed sync manifest for `pkistudio/asn1defsifter`.
+
 ## v0.1.2 - 2026-05-22
 
 ### Sync
