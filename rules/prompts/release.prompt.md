@@ -17,6 +17,7 @@ Run the standard PkiStudio release workflow.
 - Open a PR.
 - Wait for user approval before merging.
 - After merge approval, prepare version bump, tag, GitHub Release, npm publish, WordPress post, Pages verification, and Actions verification.
+- When preparing a GitHub Release, use a release title/name that is the version only unless the repository profile says otherwise.
 
 ## Required Safety Rules
 

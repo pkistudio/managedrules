@@ -2,6 +2,16 @@
 
 All notable changes to this repository are tracked here. This repository uses Git tags for versioning.
 
+## Unreleased
+
+### Rules
+
+- Standardized GitHub Release title/name guidance so releases use the version only.
+
+### Profiles
+
+- Added the version-only GitHub Release title/name pattern to all managed release profiles.
+
 ## v0.1.5 - 2026-05-23
 
 ### Profiles

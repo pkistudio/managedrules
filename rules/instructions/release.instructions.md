@@ -11,6 +11,7 @@ name: "PkiStudio Release Rules"
 - Never discard user changes or overwrite local work without explicit approval.
 - Run the repository's local verification commands before opening or updating a release PR.
 - Do not merge, tag, publish npm packages, create public GitHub Releases, post to WordPress, or modify Wiki content without explicit approval for that step.
+- Name GitHub Releases with the version only, using the profile's GitHub Release title/name pattern when present.
 - Keep Wiki edits separate from main repository changes unless the user explicitly asks to combine planning context.
 - Treat version bumps, changelog updates, tags, GitHub Releases, npm publish, WordPress posts, Pages checks, and Actions verification as separate release checkpoints.
 - If verification fails, stop and report the failing command, relevant output, and the next recommended fix.
