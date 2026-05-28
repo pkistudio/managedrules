@@ -13,6 +13,20 @@ Product repositories pull from this repository. `managedrules` does not push or 
 - `manifests/`: per-repository sync manifests that map source files to target paths.
 - `scripts/sync-managed-rules.mjs`: sync script that compares target files and opens a PR when differences exist.
 
+## Product Wiki Source
+
+Product repositories should keep Wiki-facing release notes, page update instructions, or draft page content under `wikisrc/`.
+
+Recommended layout:
+
+```text
+wikisrc/
+  <version>/
+    <WikiPageName>.md
+```
+
+When a product change requires a Wiki update, add the matching `wikisrc/` entry in the same product repository PR as the code or documentation change. During the Wiki publication checkpoint, inspect `wikisrc/` first and use those versioned entries to update the separate Wiki checkout. The Wiki commit remains separate from the product repository commit, but the required update source is versioned with the product change.
+
 ## Managed Repositories
 
 - `pkistudio/pkistudiojs`

@@ -41,6 +41,7 @@
 
 - Pages workflow: `.github/workflows/pages.yml`
 - Pages artifact path: `dist/app-shell`
+- Wiki source path in repository: `wikisrc/`
 - Wiki path in Codespaces: `/workspaces/asn1instancebuilder.wiki`
 - Keep Wiki work separate from main repository work unless explicitly requested.
 

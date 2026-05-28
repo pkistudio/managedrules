@@ -10,6 +10,8 @@ name: "PkiStudio Release Rules"
 - Work from an issue and feature branch for implementation work. Do not implement directly on `main`.
 - Never discard user changes or overwrite local work without explicit approval.
 - Run the repository's local verification commands before opening or updating a release PR.
+- When a product change affects Wiki content, require a matching `wikisrc/` update in the product repository before the release PR is ready.
+- Before editing or publishing Wiki content, inspect the repository's `wikisrc/` directory and use it as the source for version-specific Wiki update instructions or page content.
 - Do not merge, tag, publish npm packages, create public GitHub Releases, post to WordPress, or modify Wiki content without explicit approval for that step.
 - Name GitHub Releases with the version only, using the profile's GitHub Release title/name pattern when present.
 - Keep Wiki edits separate from main repository changes unless the user explicitly asks to combine planning context.

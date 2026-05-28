@@ -7,10 +7,16 @@ All notable changes to this repository are tracked here. This repository uses Gi
 ### Rules
 
 - Standardized GitHub Release title/name guidance so releases use the version only.
+- Added a `wikisrc/` workflow so product repositories version Wiki update source alongside product changes before separate Wiki publication.
 
 ### Profiles
 
 - Added the version-only GitHub Release title/name pattern to all managed release profiles.
+- Added the `wikisrc/` Wiki source path to all managed release profiles.
+
+### Documentation
+
+- Documented the recommended product repository `wikisrc/<version>/<WikiPageName>.md` layout.
 
 ## v0.1.5 - 2026-05-23
 

@@ -40,6 +40,7 @@
 
 - Pages workflow: `.github/workflows/pages.yml`
 - Pages artifact path: `dist`
+- Wiki source path in repository: `wikisrc/`
 - Wiki path in Codespaces: `/workspaces/certgadgets.wiki`
 - Keep Wiki work separate from main repository work unless explicitly requested.
 

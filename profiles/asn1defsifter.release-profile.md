@@ -42,6 +42,7 @@
 
 - Pages workflow: `.github/workflows/pages.yml`
 - Pages artifact path: `pages-dist`
+- Wiki source path in repository: `wikisrc/`
 - Wiki path in Codespaces: `/workspaces/asn1defsifter.wiki`
 - Keep Wiki work separate from main repository work unless explicitly requested.
 
